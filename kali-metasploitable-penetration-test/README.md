@@ -26,7 +26,7 @@ I first verified that the attacking machine could remotely access the target sys
 I executed the following command from the Kali Linux system:
 
 ssh -oHostKeyAlgorithms=+ssh-rsa msfadmin@192.168.1.198
-
+![SSH Access and Network Verification](ssh-access-network-verification.png)
 Because the Metasploitable system uses an older SSH configuration, the option HostKeyAlgorithms=+ssh-rsa was required to allow the connection. After authentication, I successfully established a remote session with the target system.
 
 Screenshot:
@@ -56,7 +56,9 @@ The -sS parameter initiated a SYN scan, which identifies open ports by sending S
 The -sV parameter enabled service version detection, allowing Nmap to determine the specific software and versions running on the discovered ports. Identifying service versions is critical for vulnerability assessment because outdated or misconfigured services may contain known security weaknesses.
 
 The scan results revealed several active services on the Metasploitable system, including FTP, SSH, Telnet, SMTP, HTTP, MySQL, and Samba. These services represent potential entry points that could be explored further during subsequent stages of the penetration test.
+![Nmap Service Enumeration Part 1](nmap-service-enumeration-part1.png)
 
+![Nmap Service Enumeration Part 2](nmap-service-enumeration-part2.png)
 Screenshots:
 
 Key Findings
