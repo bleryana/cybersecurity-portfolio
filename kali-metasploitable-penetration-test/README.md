@@ -41,8 +41,6 @@ ping 192.168.1.198
 
 The command generated multiple ICMP echo replies from the target system, confirming successful network connectivity between the Kali Linux machine and the Metasploitable host.
 
-Screenshot:
-
 Service Enumeration Using Nmap
 
 Once connectivity had been confirmed, I conducted a network scan to identify open ports and services running on the target machine. This step was performed using Nmap, a widely used network discovery and security auditing tool.
@@ -59,7 +57,6 @@ The scan results revealed several active services on the Metasploitable system, 
 ![Nmap Service Enumeration Part 1](nmap-service-enumeration-part1.png)
 
 ![Nmap Service Enumeration Part 2](nmap-service-enumeration-part2.png)
-Screenshots:
 
 Key Findings
 
