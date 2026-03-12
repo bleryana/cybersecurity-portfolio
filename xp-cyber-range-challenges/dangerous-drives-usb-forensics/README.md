@@ -27,3 +27,10 @@ All validation checks passed successfully (8/8).
 - File integrity verification
 - Incident response
 - Digital forensics investigation
+
+
+## Challenge Report
+
+Download the official XP Cyber Range completion report:
+
+[View Report](DavidSamaDobbinga_NCPReport147951.pdf)
